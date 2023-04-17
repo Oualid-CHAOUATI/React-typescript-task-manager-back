@@ -1,0 +1,23 @@
+# fetch all tasks
+
+GET http://localhost:3000/tasks
+
+
+POST http://localhost:3000/tasks
+Content-Type:application/json
+{
+    "title":"tttiiitttleee---",
+    "date":"2023-04-05",
+    "description":"desssccctrrrrrr---",
+    "priority":"low",
+    "status":"todo"
+}
+
+
+
+ PUT http://localhost:3000/tasks
+Content-Type:application/json
+{
+  "id":"99e3ec4a-d371-11ed-b3f8-50ebf6d4e404",
+  "status":"  completed"  
+}
